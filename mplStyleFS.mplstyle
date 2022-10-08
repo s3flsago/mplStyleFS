@@ -1,0 +1,56 @@
+# Versuch eines Paperquality Style Sheets
+# .15 = dark_gray
+# .8 = light_gray
+figure.facecolor: white
+figure.autolayout:true
+text.color: 0
+axes.labelcolor: 0
+legend.frameon: True
+legend.numpoints: 1
+legend.scatterpoints: 1
+xtick.direction: in
+ytick.direction: in
+xtick.color: .15
+ytick.color: .15
+axes.axisbelow: True
+figure.figsize: 12, 7
+image.cmap: Greys
+font.family: serif
+legend.fontsize: 20
+font.serif: Bitstream Vera Sans Arial, Liberation Sans, DejaVu Sans, sans-serif
+grid.linestyle: :
+lines.solid_capstyle: round
+# axes.prop_cycle: cycler('color', ['E24A33', '348ABD', '777777', 'FBC15E', '8EBA42', 'FFB5B8'])
+                   # E24A33 : red
+                   # 348ABD : blue
+                   # 988ED5 : purple# not in anymore
+                   # 777777 : gray
+                   # FBC15E : yellow
+                   # 8EBA42 : green
+# FFB5B8 : pink
+# Seaborn whitegrid parameters
+
+axes.prop_cycle: cycler('color', plt.cm.Set3.colors)
+
+#axes.color_cycle : 377eb8, ff7f00, e41a1c, 4daf4a, 984ea3, a65628, f781bf, d2d215, fb9a99, a6cee3, fdbf6f, b2df8a, cab2d6
+
+text.usetex: True
+text.latex.preamble: \usepackage{siunitx}
+axes.titlesize: 25
+xtick.labelsize: 30
+ytick.labelsize: 30
+axes.labelsize: 20
+#axes.grid: True
+axes.facecolor: white
+axes.edgecolor: .15
+axes.linewidth: 1
+grid.color: .8
+xtick.major.size: 5
+ytick.major.size: 5
+xtick.minor.size: 3
+ytick.minor.size: 3
+
+errorbar.capsize: 10
+axes.grid: True
+font.size: 20
+#patch.linewidth: 1
