@@ -6,7 +6,7 @@ STYLE_SHEET_NAME = mplStyleFS.mplstyle
 
 
 update: 
-	cp ./${STYLE_SHEET_NAME} ${STYLE_SHEETS_LOC}
+	cp ./data/${STYLE_SHEET_NAME} ${STYLE_SHEETS_LOC}
 
 
 clean:
